@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengaturan AC Otomatis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Pengaturan AC Otomatis</h1>
+        <label for="suhu">Masukkan Suhu Ruangan (°C):</label>
+        <input type="number" id="suhu" min="0" max="40" placeholder="0-40">
+        <button onclick="hitungKecepatanKipas()">Hitung Kecepatan Kipas</button>
+        <h2 id="hasil"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
