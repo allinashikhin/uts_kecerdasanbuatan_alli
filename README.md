@@ -1,0 +1,1 @@
+sistem pengaturan ac otomatis
